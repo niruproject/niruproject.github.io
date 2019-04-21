@@ -1,0 +1,58 @@
+body, html{
+	height: 100%;
+}
+
+h1{
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.bg{
+	background-image: url(colors.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+/*button{
+	position: absolute;	
+	top: 20%;
+	left: 40%;
+	width:250px;
+}*/
+
+.btn{
+	color:aqua;
+	font-weight: bold;
+	background-color: red;
+	border-radius: 15px;
+
+	position: absolute;	
+	top: 20%;
+	left: 40%;
+	width:250px;
+}
+
+.btn:hover{
+	background-color: aqua;
+	color: red;
+	font-weight: bold;
+	border-radius: 15px;
+}
+
+/*.align-self-start{
+	background:blue;
+}
+
+.align-self-center{
+	background:red;
+}
+
+.align-self-end{
+	background:green;
+}
+
+*/
